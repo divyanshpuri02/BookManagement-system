@@ -1,0 +1,23 @@
+{
+  "name": "airtribe",
+  "version": "1.0.0",
+  "description": "Airtribe session",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon server.js",
+    "start-server": "node server.js"
+  },
+  "author": "Divyansh Puri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "git": "^0.1.5",
+    "Logger": "^0.0.0",
+    "nodemon": "^3.0.1",
+    "winston": "^3.11.0"
+  }
+}
